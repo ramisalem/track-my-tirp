@@ -1,12 +1,8 @@
 import axios from 'axios';
 import { AsyncStorage } from 'react-native';
 
-let url;
-if (__DEV__) {
-  url = 'http://cd14184c.ngrok.io';
-} else {
-  url = 'https://sleepy-savannah-10606.herokuapp.com';
-}
+
+url = 'http://www.rami.engineer';
 
 const instance = axios.create({
   baseURL: url
